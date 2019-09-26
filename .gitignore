@@ -2,4 +2,5 @@
 *.save
 *.o
 wordfreq/wordfreq
+**/.idea/
 
