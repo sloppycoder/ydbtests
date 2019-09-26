@@ -16,7 +16,7 @@ func main() {
 	var errstr yottadb.BufferT
 
 	tptoken := yottadb.NOTTP
-	for i := 1; i < 1000; i++ {
+	for i := 1; i <= 100; i++ {
 		id := fmt.Sprintf("%05d", i)
 		err := yottadb.SetValE(tptoken, &errstr, "300.00", Global, []string{id})
 		if err != nil {

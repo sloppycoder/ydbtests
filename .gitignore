@@ -4,4 +4,6 @@
 wordfreq/wordfreq
 **/.idea/
 go/ydbtst
-
+repl_procedures/A/
+repl_procedures/B/
+repl_procedures/tester

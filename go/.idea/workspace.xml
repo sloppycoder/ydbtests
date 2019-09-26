@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da91b08f-1d26-4864-b88a-21861eba0bed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +31,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="go" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../repl_procedures" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,19 +55,14 @@
   <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/../repl_procedures" />
       <envs>
-        <env name="ydb_dir" value="$USER_HOME$/.yottadb" />
-        <env name="ydb_rel" value="r1.28_x86_64" />
         <env name="ydb_dist" value="/usr/local/lib/yottadb/r128" />
         <env name="gtm_dist" value="$ydb_dist" />
-        <env name="ydb_repl_instance" value="$USER_HOME$/.yottadb/r1.28_x86_64/g/yottadb.repl" />
-        <env name="ydb_retention" value="42" />
-        <env name="ydb_gbldir" value="$USER_HOME$/.yottadb/r1.28_x86_64/g/yottadb.gld" />
-        <env name="ydb_routines" value="$USER_HOME$/.yottadb/r1.28_x86_64/o*($USER_HOME$/.yottadb/r1.28_x86_64/r $USER_HOME$/.yottadb/r) /usr/local/lib/yottadb/r128/libyottadbutil.so" />
-        <env name="ydb_etrap" value="Write:(0=$STACK) &quot;Error occurred: &quot;,$ZStatus,!" />
-        <env name="ydb_tmp" value="/tmp/yottadb/r1.28_x86_64" />
-        <env name="ydb_log" value="/tmp/yottadb/r1.28_x86_64" />
+        <env name="ydb_repl_instname" value="A" />
+        <env name="ydb_gbldir" value="$PROJECT_DIR$/../repl_procedures/A/yottadb.gld" />
+        <env name="ydb_routines" value="home/lee/Projects/git/ydbtests/repl_procedures/A /usr/local/lib/yottadb/r128/libgtmutil.so" />
+        <env name="ydb_repl_instance" value="$PROJECT_DIR$/../repl_procedures/A/yottadb.repl" />
       </envs>
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
@@ -85,6 +80,10 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build scratch.go" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go" />
@@ -107,6 +106,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
