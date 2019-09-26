@@ -3,4 +3,5 @@
 *.o
 wordfreq/wordfreq
 **/.idea/
+go/ydbtst
 
