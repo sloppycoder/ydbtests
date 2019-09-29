@@ -1,6 +1,7 @@
 *.tmp
 *.save
 *.o
+*.log
 wordfreq/wordfreq
 **/.idea/
 go/ydbtst

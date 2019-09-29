@@ -1,4 +1,4 @@
 #!/bin/bash
 
-tee $PWD/B/filter.log
+tee $PWD/B/myfilter.log
 
